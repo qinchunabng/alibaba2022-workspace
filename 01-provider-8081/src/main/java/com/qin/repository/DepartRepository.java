@@ -1,4 +1,4 @@
-package com.qin.dao;
+package com.qin.repository;
 
 import com.qin.bean.Depart;
 import org.springframework.data.jpa.repository.JpaRepository;

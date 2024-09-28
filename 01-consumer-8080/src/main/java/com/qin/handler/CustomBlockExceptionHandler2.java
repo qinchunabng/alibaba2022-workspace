@@ -13,29 +13,26 @@ import org.springframework.stereotype.Component;
 
 import java.io.Writer;
 
-@Component
-public class CustomBlockExceptionHandler implements BlockExceptionHandler {
+/**
+ * 自定跳转页面
+ */
+//@Component
+public class CustomBlockExceptionHandler2 implements BlockExceptionHandler {
 
     @Override
     public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, BlockException e) throws Exception {
-        httpServletResponse.setStatus(429);
-
-        Writer writer = httpServletResponse.getWriter();
-        String msg = "Blocked by sentinel - ";
+        String page = "";
         if(e instanceof FlowException){
-            msg += "Flow Exception";
+            page = "/flow.html";
         }else if(e instanceof DegradeException){
-            msg += "Degrade Exception";
+            page = "/degrade.html";
         }else if(e instanceof SystemBlockException){
-            msg += "System Exception";
+            page = "/degrade.html";
         }else if(e instanceof ParamFlowException){
-            msg += "Param Flow Exception";
+            page = "/param.html";
         }else if(e instanceof AuthorityException){
-            msg += "Authority Exception";
-            httpServletResponse.setStatus(401);
+            page = "/authority.html";
         }
-        writer.write(msg);
-        writer.flush();
-        writer.close();
+        httpServletRequest.getRequestDispatcher(page).forward(httpServletRequest, httpServletResponse);
     }
 }

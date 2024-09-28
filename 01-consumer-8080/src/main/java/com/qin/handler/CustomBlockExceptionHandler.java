@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.Writer;
 
-@Component
+//@Component
 public class CustomBlockExceptionHandler implements BlockExceptionHandler {
 
     @Override

@@ -11,28 +11,26 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 
-import java.io.Writer;
-
 /**
- * 自定跳转页面
+ * 重定向页面
  */
 @Component
-public class CustomBlockExceptionHandler2 implements BlockExceptionHandler {
+public class CustomBlockExceptionHandler3 implements BlockExceptionHandler {
 
     @Override
     public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, BlockException e) throws Exception {
-        String page = "";
+        String url = "";
         if(e instanceof FlowException){
-            page = "/flow.html";
+            url = "https://jd.com";
         }else if(e instanceof DegradeException){
-            page = "/degrade.html";
+            url = "https://baidu.com";
         }else if(e instanceof SystemBlockException){
-            page = "/degrade.html";
+            url = "https://taobao.com";
         }else if(e instanceof ParamFlowException){
-            page = "/param.html";
+            url = "https://oracle.com";
         }else if(e instanceof AuthorityException){
-            page = "/authority.html";
+            url = "https://sentinelguard.io";
         }
-        httpServletRequest.getRequestDispatcher(page).forward(httpServletRequest, httpServletResponse);
+        httpServletResponse.sendRedirect(url);
     }
 }
