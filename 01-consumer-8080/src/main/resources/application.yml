@@ -16,6 +16,25 @@ spring:
       transport:
         dashboard: localhost:8888
       eager: true
+      datasource:
+        flows:
+          nacos:
+            server-addr: localhost:8847
+            rule-type: flow
+            data-id: ${spring.application.name}-flow-rules
+            data-type: json
+            username: nacos
+            password: nacos
+            group-id: SENTINEL_GROUP
+        degrades:
+          nacos:
+            server-addr: localhost:8847
+            rule-type: degrade
+            username: nacos
+            password: nacos
+            data-type: json
+            data-id: ${spring.application.name}-degrade-rules
+            group-id: SENTINEL_GROUP
   config:
     import:
       - optional:nacos:common.yml
