@@ -2,6 +2,7 @@ package com.qin.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.qin.bean.Depart;
+import com.qin.controller.api.ProviderApi;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +34,9 @@ public class ConsumerController {
     @Value("${depart.name:}")
     private String departName;
 
+    @Autowired
+    private ProviderApi providerApi;
+
     @PostMapping("")
     public boolean save(@RequestBody Depart depart){
         return restTemplate.postForObject(URL, depart, Boolean.class);
@@ -52,12 +56,15 @@ public class ConsumerController {
 
     @GetMapping("/{id}")
     public Depart get(@PathVariable Integer id){
-        return restTemplate.getForObject(URL + "/" + id, Depart.class);
+//        return restTemplate.getForObject(URL + "/" + id, Depart.class);
+        return providerApi.get(id);
     }
+
 
     @GetMapping("/list")
     public List<Depart> list(){
-        return restTemplate.getForObject(URL + "/list", List.class);
+//        return restTemplate.getForObject(URL + "/list", List.class);
+        return providerApi.list();
     }
 
     @GetMapping("/services")
