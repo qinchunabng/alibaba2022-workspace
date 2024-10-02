@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: gateway-app
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8847
+        username: nacos
+        password: nacos
+        file-extension: yml
+        #共享配置文件
+        shared-configs:
+          - data-id: common.yml
+            refresh: true
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8888
+      eager: true
+    gateway:
+      routes:
+        - id: my_route
+          uri: https://douyin.com
+          predicates:
+            - Header=X-Request-Id, \d+
+            - Header=Color, gr.+
+        - id: tb_route
+          uri: https://taobao.com
+          predicates:
+            - Path=/tb
+        - id: jd_route
+          uri: https://jd.com
+          predicates:
+            - Path=/jd
+
+  config:
+    import:
+      - optional:nacos:common.yml
+      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}

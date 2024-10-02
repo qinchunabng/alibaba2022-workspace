@@ -12,6 +12,7 @@
         <module>01-provider-8081</module>
         <module>01-consumer-8080</module>
         <module>01-common</module>
+        <module>gateway-config</module>
     </modules>
 
     <properties>
