@@ -32,6 +32,16 @@ spring:
           uri: https://jd.com
           predicates:
             - Path=/jd
+        - id: auth_route
+          uri: http://localhost:8080
+          predicates:
+            #下面配置含义（参数顺序定义由shortcutFieldOrder决定）：
+            #username=zhangsan,password=123
+            - Auth=zhangsan, 123
+        - id: token_route
+          uri: http://localhost:8080
+          predicates:
+            - Token=123
 
   config:
     import:
