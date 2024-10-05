@@ -23,7 +23,7 @@ public class TokenRoutePredicateFactory extends AbstractRoutePredicateFactory<To
             //获取请求中所有的请求参数
             MultiValueMap<String, String> params = exchange.getRequest().getQueryParams();
             List<String> values = params.get("token");
-            if(!CollectionUtils.isEmpty(values) || values.contains(config.getToken())){
+            if(!CollectionUtils.isEmpty(values) && values.contains(config.getToken())){
                 return true;
             }
             return false;

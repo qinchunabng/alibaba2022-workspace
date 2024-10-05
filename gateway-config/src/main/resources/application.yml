@@ -42,6 +42,15 @@ spring:
           uri: http://localhost:8080
           predicates:
             - Token=123
+        - id: cb_route
+          uri: http://localhost:8080
+          predicates:
+            - Path=/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: myCircuitBreaker
+                fallbackUri: forward:/fb
 
   config:
     import:
