@@ -1,6 +1,11 @@
 spring:
   application:
     name: gateway-app
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
   cloud:
     nacos:
       config:
@@ -18,6 +23,12 @@ spring:
         dashboard: localhost:8888
       eager: true
     gateway:
+      #全局默认过滤器
+      default-filters:
+        - name: CircuitBreaker
+          args:
+            name: myCircuitBreaker
+            fallback: forward:/fb
       routes:
         - id: my_route
           uri: https://douyin.com
@@ -42,15 +53,30 @@ spring:
           uri: http://localhost:8080
           predicates:
             - Token=123
-        - id: cb_route
+#        - id: cb_route
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: myCircuitBreaker
+#                fallbackUri: forward:/fb
+        - id: rate_route
           uri: http://localhost:8080
           predicates:
-            - Path=/**
+            - Path=/consumer/**
           filters:
-            - name: CircuitBreaker
+            - name: RequestRateLimiter
               args:
-                name: myCircuitBreaker
-                fallbackUri: forward:/fb
+                key-resolver: "#{@userKeyResolver}"
+                redis-rate-limiter:
+                  #令牌填充速率
+                  replenishRate: 1
+                  #突增令牌数量
+                  burstCapacity: 2
+                  #每个请求消耗的令牌数量
+                  requestedTokens: 1
 
   config:
     import:
