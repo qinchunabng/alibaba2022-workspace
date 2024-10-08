@@ -77,6 +77,7 @@ spring:
                   burstCapacity: 2
                   #每个请求消耗的令牌数量
                   requestedTokens: 1
+            - AddHeader=color, red
 
   config:
     import:

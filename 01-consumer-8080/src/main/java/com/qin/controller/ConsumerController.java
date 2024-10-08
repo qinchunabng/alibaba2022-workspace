@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -62,8 +63,9 @@ public class ConsumerController {
 
 
     @GetMapping("/list")
-    public List<Depart> list(){
+    public List<Depart> list(@RequestHeader String color){
 //        return restTemplate.getForObject(URL + "/list", List.class);
+        logger.info("header -> color: {}", color);
         return providerApi.list();
     }
 
