@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: ec-goods-order
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8847
+        username: nacos
+        password: nacos
+        file-extension: yml
+
+  config:
+    import:
+      - optional:nacos:common.yml
+      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+
+seata:
+  tx-service-group: default_tx_group
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+  registry:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8847
+      application: seata-server
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
