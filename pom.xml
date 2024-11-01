@@ -31,6 +31,7 @@
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
         <spring-cloud.version>2022.0.0</spring-cloud.version>
         <seata.version>2.1.0</seata.version>
+        <skywalking.version>9.3.0</skywalking.version>
     </properties>
 
 
@@ -87,6 +88,11 @@
 <!--                <artifactId>seata-spring-boot-starter</artifactId>-->
 <!--                <version>${seata.version}</version>-->
 <!--            </dependency>-->
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-trace</artifactId>
+                <version>${skywalking.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

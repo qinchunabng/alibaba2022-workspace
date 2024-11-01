@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c7cecae-fcf5-4f02-91e1-61ea617437ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-kafka-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-log4j-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-log4j-2.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-logback-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-logging-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-meter-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-micrometer-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-opentracing-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-trace-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/activations/apm-toolkit-webflux-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/bootstrap-plugins/apm-jdk-forkjoinpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/bootstrap-plugins/apm-jdk-http-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/bootstrap-plugins/apm-jdk-threading-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/bootstrap-plugins/apm-jdk-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/config/agent.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/expired-plugins/apm-impala-jdbc-2.6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/licenses/LICENSE-asm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-ehcache-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-fastjson-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-gson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-guava-cache-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-jackson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-kotlin-coroutine-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-mybatis-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-nacos-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-netty-http-4.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-quartz-scheduler-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-resttemplate-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-sentinel-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-shenyu-2.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-tx-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-webflux-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-spring-webflux-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-springmvc-annotation-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-trace-ignore-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/apm-zookeeper-3.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-plugins/trace-sampler-cpu-policy-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-reporter-plugins/kafka-reporter-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-reporter-plugins/lz4-java-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-reporter-plugins/snappy-java-1.1.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/optional-reporter-plugins/zstd-jni-1.4.3-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-activemq-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-activemq-artemis-jakarta-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-aerospike-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-armeria-0.84.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-armeria-0.85.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-armeria-1.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-asynchttpclient-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-avro-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-c3p0-0.9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-canal-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-cassandra-java-driver-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-clickhouse-0.3.1-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-clickhouse-0.3.2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-cxf-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-dubbo-2.7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-dubbo-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-dubbo-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-elastic-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-elasticjob-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-elasticsearch-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-elasticsearch-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-elasticsearch-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-feign-default-http-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-finagle-6.25.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-grizzly-2.x-4.x-work-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-grizzly-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-grpc-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-guava-eventbus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-h2-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-hbase-1.x-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-hikaricp-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-httpClient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-httpasyncclient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-httpclient-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-httpclient-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-httpclient-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-hutool-http-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-hystrix-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-influxdb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jdbc-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jersey-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jersey-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-client-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-client-9.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-client-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-server-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-server-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-jetty-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-kafka-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-kafka-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-kylin-jdbc-2.6.x-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-lettuce-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-light4j-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mariadb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mongodb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mongodb-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mongodb-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mssql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mssql-jdbc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mssql-jtds-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mysql-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mysql-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mysql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-mysql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-neo4j-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-netty-socketio-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-nutz-http-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-okhttp-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-okhttp-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-okhttp-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-play-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-postgresql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-pulsar-2.2-2.7-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-pulsar-2.8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-pulsar-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-quasar-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-rabbitmq-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-redisson-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-resttemplate-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-resttemplate-4.3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-rocketMQ-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-rocketmq-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-rocketmq-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-rocketmq-client-java-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-servicecomb-java-chassis-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-sharding-sphere-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-sharding-sphere-4.1.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-shardingsphere-4.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-shardingsphere-5.0.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-solrj-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-async-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-cloud-feign-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-cloud-feign-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-concurrent-util-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-core-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-kafka-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-kafka-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spring-scheduled-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-springmvc-annotation-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-springmvc-annotation-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-springmvc-annotation-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-springmvc-annotation-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-spymemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-struts2-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-tomcat-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-undertow-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-undertow-worker-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-vertx-core-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-vertx-core-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-xmemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/apm-xxl-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/baidu-brpc-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/baidu-brpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/dbcp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/druid-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/dubbo-2.7.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/dubbo-3.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/dubbo-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/elasticsearch-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/graphql-12.x-15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/graphql-16plus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/graphql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/graphql-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/jedis-2.x-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/jedis-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/jsonrpc4j-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/micronaut-http-client-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/micronaut-http-server-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/motan-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/nats-2.14.x-2.15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/okhttp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/resteasy-server-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/resteasy-server-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/resteasy-server-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/resttemplate-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/sofa-rpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/solon-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/spring-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/spring-webflux-6.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/thrift-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/tomcat-10x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/tomcat-7.x-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/plugins/websphere-liberty-23.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-account/skywalking-agent/skywalking-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-kafka-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-log4j-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-log4j-2.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-logback-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-logging-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-meter-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-micrometer-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-opentracing-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-trace-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/activations/apm-toolkit-webflux-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/bootstrap-plugins/apm-jdk-forkjoinpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/bootstrap-plugins/apm-jdk-http-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/bootstrap-plugins/apm-jdk-threading-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/bootstrap-plugins/apm-jdk-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/config/agent.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/expired-plugins/apm-impala-jdbc-2.6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/licenses/LICENSE-asm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-ehcache-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-fastjson-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-gson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-guava-cache-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-jackson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-kotlin-coroutine-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-mybatis-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-nacos-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-netty-http-4.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-quartz-scheduler-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-resttemplate-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-sentinel-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-shenyu-2.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-tx-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-webflux-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-spring-webflux-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-springmvc-annotation-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-trace-ignore-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/apm-zookeeper-3.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-plugins/trace-sampler-cpu-policy-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-reporter-plugins/kafka-reporter-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-reporter-plugins/lz4-java-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-reporter-plugins/snappy-java-1.1.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/optional-reporter-plugins/zstd-jni-1.4.3-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-activemq-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-activemq-artemis-jakarta-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-aerospike-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-armeria-0.84.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-armeria-0.85.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-armeria-1.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-asynchttpclient-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-avro-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-c3p0-0.9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-canal-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-cassandra-java-driver-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-clickhouse-0.3.1-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-clickhouse-0.3.2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-cxf-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-dubbo-2.7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-dubbo-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-dubbo-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-elastic-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-elasticjob-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-elasticsearch-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-elasticsearch-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-elasticsearch-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-feign-default-http-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-finagle-6.25.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-grizzly-2.x-4.x-work-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-grizzly-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-grpc-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-guava-eventbus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-h2-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-hbase-1.x-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-hikaricp-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-httpClient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-httpasyncclient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-httpclient-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-httpclient-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-httpclient-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-hutool-http-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-hystrix-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-influxdb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jdbc-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jersey-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jersey-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-client-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-client-9.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-client-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-server-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-server-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-jetty-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-kafka-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-kafka-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-kylin-jdbc-2.6.x-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-lettuce-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-light4j-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mariadb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mongodb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mongodb-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mongodb-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mssql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mssql-jdbc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mssql-jtds-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mysql-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mysql-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mysql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-mysql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-neo4j-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-netty-socketio-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-nutz-http-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-okhttp-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-okhttp-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-okhttp-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-play-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-postgresql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-pulsar-2.2-2.7-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-pulsar-2.8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-pulsar-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-quasar-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-rabbitmq-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-redisson-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-resttemplate-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-resttemplate-4.3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-rocketMQ-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-rocketmq-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-rocketmq-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-rocketmq-client-java-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-servicecomb-java-chassis-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-sharding-sphere-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-sharding-sphere-4.1.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-shardingsphere-4.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-shardingsphere-5.0.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-solrj-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-async-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-cloud-feign-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-cloud-feign-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-concurrent-util-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-core-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-kafka-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-kafka-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spring-scheduled-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-springmvc-annotation-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-springmvc-annotation-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-springmvc-annotation-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-springmvc-annotation-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-spymemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-struts2-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-tomcat-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-undertow-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-undertow-worker-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-vertx-core-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-vertx-core-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-xmemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/apm-xxl-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/baidu-brpc-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/baidu-brpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/dbcp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/druid-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/dubbo-2.7.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/dubbo-3.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/dubbo-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/elasticsearch-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/graphql-12.x-15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/graphql-16plus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/graphql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/graphql-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/jedis-2.x-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/jedis-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/jsonrpc4j-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/micronaut-http-client-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/micronaut-http-server-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/motan-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/nats-2.14.x-2.15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/okhttp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/resteasy-server-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/resteasy-server-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/resteasy-server-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/resttemplate-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/sofa-rpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/solon-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/spring-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/spring-webflux-6.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/thrift-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/tomcat-10x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/tomcat-7.x-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/plugins/websphere-liberty-23.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/skywalking-agent/skywalking-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-business/src/main/java/com/qin/service/BusinessLocalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-kafka-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-log4j-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-log4j-2.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-logback-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-logging-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-meter-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-micrometer-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-opentracing-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-trace-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/activations/apm-toolkit-webflux-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/bootstrap-plugins/apm-jdk-forkjoinpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/bootstrap-plugins/apm-jdk-http-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/bootstrap-plugins/apm-jdk-threading-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/bootstrap-plugins/apm-jdk-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/config/agent.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/expired-plugins/apm-impala-jdbc-2.6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/licenses/LICENSE-asm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-ehcache-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-fastjson-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-gson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-guava-cache-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-jackson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-kotlin-coroutine-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-mybatis-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-nacos-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-netty-http-4.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-quartz-scheduler-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-resttemplate-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-sentinel-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-shenyu-2.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-tx-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-webflux-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-spring-webflux-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-springmvc-annotation-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-trace-ignore-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/apm-zookeeper-3.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-plugins/trace-sampler-cpu-policy-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-reporter-plugins/kafka-reporter-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-reporter-plugins/lz4-java-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-reporter-plugins/snappy-java-1.1.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/optional-reporter-plugins/zstd-jni-1.4.3-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-activemq-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-activemq-artemis-jakarta-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-aerospike-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-armeria-0.84.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-armeria-0.85.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-armeria-1.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-asynchttpclient-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-avro-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-c3p0-0.9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-canal-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-cassandra-java-driver-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-clickhouse-0.3.1-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-clickhouse-0.3.2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-cxf-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-dubbo-2.7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-dubbo-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-dubbo-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-elastic-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-elasticjob-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-elasticsearch-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-elasticsearch-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-elasticsearch-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-feign-default-http-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-finagle-6.25.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-grizzly-2.x-4.x-work-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-grizzly-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-grpc-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-guava-eventbus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-h2-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-hbase-1.x-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-hikaricp-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-httpClient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-httpasyncclient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-httpclient-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-httpclient-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-httpclient-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-hutool-http-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-hystrix-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-influxdb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jdbc-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jersey-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jersey-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-client-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-client-9.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-client-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-server-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-server-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-jetty-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-kafka-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-kafka-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-kylin-jdbc-2.6.x-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-lettuce-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-light4j-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mariadb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mongodb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mongodb-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mongodb-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mssql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mssql-jdbc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mssql-jtds-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mysql-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mysql-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mysql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-mysql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-neo4j-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-netty-socketio-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-nutz-http-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-okhttp-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-okhttp-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-okhttp-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-play-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-postgresql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-pulsar-2.2-2.7-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-pulsar-2.8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-pulsar-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-quasar-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-rabbitmq-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-redisson-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-resttemplate-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-resttemplate-4.3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-rocketMQ-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-rocketmq-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-rocketmq-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-rocketmq-client-java-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-servicecomb-java-chassis-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-sharding-sphere-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-sharding-sphere-4.1.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-shardingsphere-4.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-shardingsphere-5.0.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-solrj-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-async-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-cloud-feign-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-cloud-feign-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-concurrent-util-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-core-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-kafka-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-kafka-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spring-scheduled-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-springmvc-annotation-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-springmvc-annotation-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-springmvc-annotation-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-springmvc-annotation-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-spymemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-struts2-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-tomcat-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-undertow-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-undertow-worker-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-vertx-core-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-vertx-core-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-xmemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/apm-xxl-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/baidu-brpc-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/baidu-brpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/dbcp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/druid-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/dubbo-2.7.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/dubbo-3.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/dubbo-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/elasticsearch-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/graphql-12.x-15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/graphql-16plus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/graphql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/graphql-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/jedis-2.x-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/jedis-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/jsonrpc4j-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/micronaut-http-client-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/micronaut-http-server-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/motan-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/nats-2.14.x-2.15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/okhttp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/resteasy-server-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/resteasy-server-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/resteasy-server-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/resttemplate-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/sofa-rpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/solon-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/spring-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/spring-webflux-6.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/thrift-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/tomcat-10x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/tomcat-7.x-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/plugins/websphere-liberty-23.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-goods-order/skywalking-agent/skywalking-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-kafka-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-log4j-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-log4j-2.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-logback-1.x-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-logging-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-meter-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-micrometer-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-opentracing-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-trace-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/activations/apm-toolkit-webflux-activation-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/bootstrap-plugins/apm-jdk-forkjoinpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/bootstrap-plugins/apm-jdk-http-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/bootstrap-plugins/apm-jdk-threading-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/bootstrap-plugins/apm-jdk-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/config/agent.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/expired-plugins/apm-impala-jdbc-2.6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/licenses/LICENSE-asm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-ehcache-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-fastjson-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-gson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-guava-cache-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-jackson-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-kotlin-coroutine-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-mybatis-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-nacos-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-netty-http-4.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-quartz-scheduler-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-resttemplate-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-sentinel-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-shenyu-2.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-2.1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-cloud-gateway-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-tx-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-webflux-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-spring-webflux-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-springmvc-annotation-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-trace-ignore-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/apm-zookeeper-3.4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-plugins/trace-sampler-cpu-policy-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-reporter-plugins/kafka-reporter-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-reporter-plugins/lz4-java-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-reporter-plugins/snappy-java-1.1.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/optional-reporter-plugins/zstd-jni-1.4.3-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-activemq-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-activemq-artemis-jakarta-client-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-aerospike-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-armeria-0.84.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-armeria-0.85.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-armeria-1.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-asynchttpclient-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-avro-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-c3p0-0.9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-canal-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-cassandra-java-driver-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-clickhouse-0.3.1-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-clickhouse-0.3.2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-cxf-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-dubbo-2.7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-dubbo-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-dubbo-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-elastic-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-elasticjob-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-elasticsearch-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-elasticsearch-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-elasticsearch-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-feign-default-http-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-finagle-6.25.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-grizzly-2.x-4.x-work-threadpool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-grizzly-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-grpc-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-guava-eventbus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-h2-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-hbase-1.x-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-hikaricp-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-httpClient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-httpasyncclient-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-httpclient-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-httpclient-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-httpclient-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-hutool-http-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-hystrix-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-influxdb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jdbc-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jersey-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jersey-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-client-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-client-9.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-client-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-server-11.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-server-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-jetty-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-kafka-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-kafka-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-kylin-jdbc-2.6.x-3.x-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-lettuce-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-light4j-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mariadb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mongodb-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mongodb-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mongodb-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mssql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mssql-jdbc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mssql-jtds-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mysql-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mysql-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mysql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-mysql-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-neo4j-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-netty-socketio-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-nutz-http-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-okhttp-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-okhttp-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-okhttp-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-play-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-postgresql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-pulsar-2.2-2.7-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-pulsar-2.8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-pulsar-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-quasar-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-rabbitmq-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-redisson-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-resttemplate-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-resttemplate-4.3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-rocketMQ-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-rocketmq-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-rocketmq-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-rocketmq-client-java-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-servicecomb-java-chassis-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-sharding-sphere-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-sharding-sphere-4.1.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-shardingsphere-4.0.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-shardingsphere-5.0.0-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-solrj-7.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-async-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-cloud-feign-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-cloud-feign-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-concurrent-util-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-core-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-kafka-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-kafka-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spring-scheduled-annotation-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-springmvc-annotation-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-springmvc-annotation-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-springmvc-annotation-5.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-springmvc-annotation-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-spymemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-struts2-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-tomcat-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-undertow-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-undertow-worker-thread-pool-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-vertx-core-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-vertx-core-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-xmemcached-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/apm-xxl-job-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/baidu-brpc-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/baidu-brpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/dbcp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/druid-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/dubbo-2.7.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/dubbo-3.x-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/dubbo-conflict-patch-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/elasticsearch-common-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/graphql-12.x-15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/graphql-16plus-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/graphql-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/graphql-9.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/jedis-2.x-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/jedis-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/jsonrpc4j-1.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/micronaut-http-client-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/micronaut-http-server-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/motan-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/nats-2.14.x-2.15.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/okhttp-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/resteasy-server-3.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/resteasy-server-4.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/resteasy-server-6.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/resttemplate-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/sofa-rpc-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/solon-2.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/spring-commons-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/spring-webflux-6.x-webclient-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/thrift-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/tomcat-10x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/tomcat-7.x-8.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/plugins/websphere-liberty-23.x-plugin-9.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec-stock/skywalking-agent/skywalking-agent.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ec-account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ec-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-business/src/main/java/com/qin/controller/BusinessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ec-business/src/main/java/com/qin/controller/BusinessController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-goods-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ec-goods-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-goods-order/src/main/java/com/qin/entity/GoodsOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ec-goods-order/src/main/java/com/qin/entity/GoodsOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ec-stock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec-stock/src/main/java/com/qin/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ec-stock/src/main/java/com/qin/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.5.0" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2m30zr2uvLqOMThju4NZwpF5e24" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BusinessApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ConsumerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GatewayApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GoodsApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GoodsOrderApp.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ProviderApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StockApp.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/java/alibaba2022-workspace/alibaba2022-workspace/gateway-config&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\gateway-config" />
+      <recent name="D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-stock" />
+      <recent name="D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-goods-order" />
+      <recent name="D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-business" />
+      <recent name="D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-account" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qin.common.service" />
+      <recent name="com.qin.common.entity" />
+      <recent name="com.qin.entity" />
+      <recent name="com.qin.handler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BusinessApp">
+    <configuration name="AccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.AccountApp" />
+      <module name="ec-account" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-account\skywalking-agent\skywalking-agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.BusinessApp" />
+      <module name="ec-business" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-business\skywalking-agent\skywalking-agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.GatewayApp" />
+      <module name="gateway-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsOrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.GoodsOrderApp" />
+      <module name="ec-goods-order" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-goods-order\skywalking-agent\skywalking-agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.StockApp" />
+      <module name="ec-stock" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\Workspace\java\alibaba2022-workspace\alibaba2022-workspace\ec-stock\skywalking-agent\skywalking-agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AccountApp" />
+      <item itemvalue="Application.BusinessApp" />
+      <item itemvalue="Application.GatewayApp" />
+      <item itemvalue="Application.GoodsOrderApp" />
+      <item itemvalue="Application.StockApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BusinessApp" />
+        <item itemvalue="Application.StockApp" />
+        <item itemvalue="Application.AccountApp" />
+        <item itemvalue="Application.GoodsOrderApp" />
+        <item itemvalue="Application.GatewayApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c7cecae-fcf5-4f02-91e1-61ea617437ed" name="Changes" comment="" />
+      <created>1726290219702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726290219702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/loadbalancer/NacosLoadBalancerClientConfiguration.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/loadbalancer/NacosLoadBalancerClientConfiguration.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/loadbalancer/NacosLoadBalancer.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2022.0.0.0/spring-cloud-starter-alibaba-nacos-discovery-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/loadbalancer/NacosLoadBalancer.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/NacosConfigBootstrapConfiguration.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/NacosConfigProperties.java</url>
+          <line>668</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/NacosConfigBootstrapConfiguration.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2022.0.0.0/spring-cloud-starter-alibaba-nacos-config-2022.0.0.0-sources.jar!/com/alibaba/cloud/nacos/NacosConfigBootstrapConfiguration.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/01-provider-8081/src/main/java/com/qin/controller/DepartController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../maven/repository/io/seata/seata-all/1.7.0/seata-all-1.7.0-sources.jar!/io/seata/discovery/registry/FileRegistryServiceImpl.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
